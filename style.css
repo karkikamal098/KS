@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(170, 184, 179);
+    width:100vw;
+    display: block;
+}
+
+.photo-box{
+    width:100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.photo-box p{
+    font-size: 30px;
+}
+
+img{
+    max-width: 80%;
+    max-height: 60vh;
+    border-radius: 5px;
+    margin-top:7vh;
+}
+
+#words{
+    text-align: center;
+    margin: 6vh;
+}
+
+#words2{
+    margin-top: 1vh;
+    position: absolute;
+}
+
+#image-one{
+    display: none;
+}
+#image-two{
+    display: none;
+}
+#image-three{
+    display: none;
+}
+
+
+
+
+
+
+
+.dropdown{
+    margin-top: 1vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.dropdownbutton{
+    width: 60vw;
+    height: 6vh;
+    background-color: rgb(145, 184, 61);
+    border-radius: 10px;
+    outline-style: hidden;
+}
+
+.dropdown-content{
+    position: absolute;
+    top:7vh;
+    display: none;
+    background-color: rgb(155, 207, 190);
+    min-width:50vw ;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+   background-color: #f1f1f1 ;
+   cursor: pointer;
+        }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropdownbutton {
+    background-color: #3e8e41;
+  }
+
